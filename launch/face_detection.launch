@@ -1,0 +1,11 @@
+<launch>
+  <!--node pkg="face_detection" name="dlib_face" type="dlib_face" output="screen"/-->
+
+  <node pkg="face_detection" name="imagenes_rgbd" type="imagenes_rgbd" output="screen"/>
+
+  <!--node pkg="face_detection" name="head_pose_estimator" type="head_pose_estimator" output="screen"/-->
+
+  <!--node pkg="face_detection" name="blink_counter" type="blink_counter" output="screen"/-->
+
+  <!--node pkg="face_detection" name="gaze_tracking" type="gaze_tracking" output="screen"/-->
+</launch>
